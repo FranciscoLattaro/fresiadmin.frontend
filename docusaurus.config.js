@@ -101,6 +101,7 @@ const config = {
           },
         ],
       },
+      titleDelimiter: ' ',
       footer: {
         style: 'dark',
         links: [
