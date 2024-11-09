@@ -90,7 +90,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://facebook.com/byfresia',
+            href: 'https://www.facebook.com/byfresia',
             label: 'Facebook',
             position: 'right',
           },
