@@ -1,6 +1,6 @@
 ---
 id: intro
-title: Introduccion
+title: Introducción
 ---
 
 ## IMPORTANTE
