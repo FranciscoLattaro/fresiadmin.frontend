@@ -14,12 +14,10 @@ import Tab from "@mui/material/Tab";
 import TabContext from "@mui/lab/TabContext";
 import TabList from "@mui/lab/TabList";
 import TabPanel from "@mui/lab/TabPanel";
-import { useAuth } from "../utils/AuthContext.js";
-import useAuthRedirect from "../utils/useAuthRedirect.js";
 
 const Dashboard = () => {
-  const { user } = useAuth(); // Obtener el usuario autenticadoa
-  useAuthRedirect(user); //Redirigir si no está autenticado
+  //const { user } = useAuth(); // Obtener el usuario autenticadoa
+  //useAuthRedirect(user); //Redirigir si no está autenticado
   const [data, setData] = useState([]); // Datos originales
   const [filteredData, setFilteredData] = useState([]); // Datos filtrados
   const [selectedMonth, setSelectedMonth] = useState(dayjs().month() + 1); // Mes seleccionado (1-12)

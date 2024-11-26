@@ -7,14 +7,10 @@ import TabContext from "@mui/lab/TabContext";
 import TabList from "@mui/lab/TabList";
 import TabPanel from "@mui/lab/TabPanel";
 import QrCodeScannerIcon from "@mui/icons-material/QrCodeScanner";
-import { useAuth } from "../utils/AuthContext.js";
-import useAuthRedirect from "../utils/useAuthRedirect.js";
 import CompImportarArticulos from "../Importacion/ImportarArticulos.jsx";
 import DownloadIcon from '@mui/icons-material/Download';
 
 const MenuScanner = () => {
-  //const { user } = useAuth(); // Obtener el usuario autenticadoa
-  //useAuthRedirect(user); //Redirigir si no está autenticado
   const [value, setValue] = useState("1");
   const handleChange = (event, newValue) => {
     setValue(newValue);
